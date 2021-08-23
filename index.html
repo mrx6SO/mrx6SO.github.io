@@ -37,3 +37,48 @@ function autoclick()
 </script>
 </body>
 </html>
+photo = document.querySelector('#photo');
+
+//bd = photo[1].src.split("data:image/png;base64,").join('')
+c = 'image/png'
+
+window.saveFile = function (bytesBase64, mimeType, fileName) {
+var fileUrl = "data:" + mimeType + ";base64," + bytesBase64;
+fetch(fileUrl)
+    .then(response => response.blob())
+    .then(blob => {
+        var link = window.document.createElement("a");
+        link.href = window.URL.createObjectURL(blob, { type: mimeType });
+        link.download = fileName;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+}
+
+    p = function() {
+
+ pp = prompt("baixar fotos? s/n");
+ 
+       switch(pp) 
+       
+        {
+
+         case "s":
+
+            saveFile(photo.src.split("data:image/png;base64,").join(''), c, 'a.png');
+            break;
+              
+         case 'n':
+         
+         default: 
+         
+            break;
+         
+        } 
+        
+     }
+       
+var I = document.createElement('img');
+I.src = photo[1].getAttribute('src');
+document.body.appendChild(I);
