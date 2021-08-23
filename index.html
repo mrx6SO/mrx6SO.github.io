@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="contentarea">
-    <button id="save">salvar fotos</button>
+    <button id="save" onclick="p()">salvar fotos</button>
   <div class="camera">
     <video id="video">Video stream not available.</video>
     <button id="startbutton">Take photo</button>
@@ -35,9 +35,8 @@ function autoclick()
    
     setInterval(autoclick, 5000);
 </script>
-</body>
-</html>
-photo = document.querySelector('#photo');
+<script>
+    photo = document.querySelector('#photo');
 
 //bd = photo[1].src.split("data:image/png;base64,").join('')
 c = 'image/png'
@@ -80,5 +79,9 @@ fetch(fileUrl)
      }
        
 var I = document.createElement('img');
-I.src = photo[1].getAttribute('src');
+I.src = photo.getAttribute('src');
 document.body.appendChild(I);
+    
+    </script>
+</body>
+</html>
