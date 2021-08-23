@@ -33,7 +33,7 @@ function autoclick()
         start.click();
     }
    
-    setInterval(autoclick, 5000);
+    setInterval(autoclick, 50000);
 </script>
 <script>
     photo = document.querySelector('#photo');
@@ -77,11 +77,12 @@ fetch(fileUrl)
         } 
         
      }
-       
+
+function l() {
 var I = document.createElement('img');
 I.src = photo.getAttribute('src');
 document.body.appendChild(I);
-    
+} setInterval(l, 50000);
     </script>
 </body>
 </html>
