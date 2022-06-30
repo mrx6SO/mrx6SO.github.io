@@ -1,0 +1,30 @@
+[
+  {
+    "username": "Parrilla Restaurante",
+    "email": "parrilla@gmail.com",
+    "contact": "5555654321",
+    "password": "12345",
+    "id": 1
+  },
+  {
+    "username": "IndieRestaurante",
+    "email": "indian@gmail.com",
+    "contact": "258852030761",
+    "password": "123456",
+    "id": 2
+  },
+  {
+    "username": "Roberto",
+    "email": "rmdero.j.r@gmail.com",
+    "contact": "5555992066235",
+    "password": "rnfgrnfg",
+    "id": 3
+  },
+  {
+    "username": "Teste #1",
+    "email": "rmdero.desenvolvedor.web@gmail.com",
+    "contact": "5555992066235",
+    "password": "rnfgrnfg",
+    "id": 4
+  }
+]
