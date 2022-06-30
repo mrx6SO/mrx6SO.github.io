@@ -1,0 +1,22 @@
+[
+  {
+    "cost": "50",
+    "companyID": 2,
+    "id": 3
+  },
+  {
+    "cost": 50,
+    "companyID": 2,
+    "id": 4
+  },
+  {
+    "cost": 60,
+    "companyID": 2,
+    "id": 5
+  },
+  {
+    "cost": 0,
+    "companyID": 2,
+    "id": 6
+  }
+]
