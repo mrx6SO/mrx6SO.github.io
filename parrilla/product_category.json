@@ -1,0 +1,23 @@
+{
+  "product_category": [
+    {
+      "category_name": "Burger King",
+      "companyID": 2,
+      "id": 1
+    },
+    {
+      "category_name": "Pizza Mexicano",
+      "companyID": 2,
+      "id": 2
+    },
+    {
+      "category_name": "Meals",
+      "companyID": 2,
+      "id": 3
+    },
+    {
+      "category_name": "Teste",
+      "companyID": 1,
+      "id": 4
+    }
+  ]
