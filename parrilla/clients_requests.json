@@ -1,0 +1,18 @@
+[
+  [
+    {
+      "id": 1,
+      "code": "cZcA2",
+      "productName": "Burger King Completo",
+      "productPrice": "65",
+      "productContent": [
+        "mayonaise",
+        " molho de tomate",
+        " hamburger"
+      ],
+      "productStatus": "pending",
+      "companyID": 2,
+      "ItemQuantity": 1
+    }
+  ]
+]

@@ -1,0 +1,269 @@
+.page-header {
+  height: 100px;
+  width: 100%;
+  display: inline-block;
+  background-color: rgb(10, 10, 10);
+  color: rgb(213, 223, 233);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 300%;
+  line-height: 2;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+.background {
+  background-image: url('https://cdn10.bigcommerce.com/s-nooeb3z/products/938/images/23332/8410_B1__44017.1454354946.1280.1280.jpg?c=2');
+  width: 100%;
+  height: auto;
+  display: inline-block;
+  border: black solid 3px;
+  object-fit: cover;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.container-fluid {
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}
+
+button {
+  background-color: goldenrod;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  /* margin: 4px 2px; */
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  border: black solid 2px;
+  margin: 20px;
+}
+
+.iconify {
+  font-size: 30px;
+}
+
+img {
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+#buttons {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+#cards {
+  visibility: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.col {
+  text-align: center;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 286px;
+  height: 400px;
+  perspective: 1000px;
+  display: inline-block;
+}
+
+.flip-card-inner {
+  position: absolute;
+  width: 286px;
+  ;
+  height: 400px;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.flip-card-back {
+  background-color: rgb(34, 33, 33);
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+}
+
+#card-one a {
+  color: white;
+  padding-top: 5px;
+}
+
+#card-one h1 {
+  width: 100%;
+  font-size: 1.75em;
+  padding: 5px 10px;
+}
+
+#card-one {
+  overflow: hidden;
+}
+
+.zodbutton {
+  text-align: center;
+}
+
+.hover-wrap:hover #show-cap {
+  display: block;
+}
+
+#show-cap {
+  display: none;
+  position: absolute;
+  margin-left: -10%;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-aqua {
+  display: block;
+}
+
+#show-aqua {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-leo {
+  display: block;
+}
+
+#show-leo {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-taurus {
+  display: block;
+}
+
+#show-taurus {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-pisces {
+  display: block;
+}
+
+#show-pisces {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-gem {
+  display: block;
+}
+
+#show-gem {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-libra {
+  display: block;
+}
+
+#show-libra {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-virgo {
+  display: block;
+}
+
+#show-virgo {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-sag {
+  display: block;
+}
+
+#show-sag {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-scorp {
+  display: block;
+}
+
+#show-scorp {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-cancer {
+  display: block;
+}
+
+#show-cancer {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}
+
+.hover-wrap:hover #show-aries {
+  display: block;
+}
+
+#show-aries {
+  display: none;
+  position: absolute;
+  color: black;
+  background-color: gray;
+  border: black solid 1px;
+}

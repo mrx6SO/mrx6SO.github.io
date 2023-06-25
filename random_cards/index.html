@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <!-- For responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no" />
+  <!-- Bootstrap CSS CDN  -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <!-- Boostrap font-awesome CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Local style sheet -->
+  <link rel="stylesheet" href="style.css" />
+  <title>Shuffle</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <header>
+      <div class="page-header">SHUFFLE</div>
+    </header>
+    <div class="background">
+      <div id="header" class="row"></div>
+      <div class="row zodiac-container" id="buttons">
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="capricorn" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-capricorn" data-inline="false"></span>
+              <div id="show-cap">Capricorn</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="aquarius" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-aquarius" data-inline="false"></span>
+              <div id="show-aqua">Aquarius</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="pisces" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-pisces" data-inline="false"></span>
+              <div id="show-pisces">Pisces</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="aries" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-aries" data-inline="false"></span>
+              <div id="show-aries">Aries</div>
+            </button>
+          </div>
+        </div>
+        <div id="taurus" class="col">
+          <div class="hover-wrap">
+            <button id="taurus" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-taurus" data-inline="false"></span>
+              <div id="show-taurus">Taurus</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="gemini" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-gemini" data-inline="false"></span>
+              <div id="show-gem">Gemini</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="leo" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-leo" data-inline="false"></span>
+              <div id="show-leo">Leo</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="cancer" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-cancer" data-inline="false"></span>
+              <div id="show-cancer">Cancer</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="virgo" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-virgo" data-inline="false"></span>
+              <div id="show-virgo">Virgo</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="libra" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-libra" data-inline="false"></span>
+              <div id="show-libra">Libra</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="scorpio" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-scorpio" data-inline="false"></span>
+              <div id="show-scorp">Scorpio</div>
+            </button>
+          </div>
+        </div>
+        <div class="col">
+          <div class="hover-wrap">
+            <button id="sagittarius" class="zodbutton">
+              <span class="iconify" data-icon="mdi:zodiac-sagittarius" data-inline="false"></span>
+              <div id="show-sag">Sagittarius</div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div id="cards" class="row">
+        <div class="col">
+          <div class="flip-card" data-state="front">
+            <div class="flip-card-inner">
+              <div class="flip-card-front" id="card-front-one">
+                <img src="blackwhitecard.jpg" alt="playing-card" style="height:100%;width:100%;" />
+              </div>
+
+              <div class="flip-card-back" id="card-one" style="height:100%;width:100%;">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="flip-card" data-state="front">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="blackwhitecard.jpg" alt="playing-card" style="height:100%;width:100%;" />
+              </div>
+              <div class="flip-card-back" id="card-two" style="height:100%;width:100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="flip-card" data-state="front">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <img src="blackwhitecard.jpg" alt="playing-card" style="height:100%;width:100%;" />
+              </div>
+              <div class="flip-card-back" id="card-three" style="height:100%;width:100%;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+  <script src="https://code.iconify.design/1/1.0.4/iconify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

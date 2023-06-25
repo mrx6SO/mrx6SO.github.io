@@ -1,0 +1,85 @@
+[
+  {
+    "productName": "American Pizza Special",
+    "productPrice": "50",
+    "newProductContent": [
+      "Mayonaise",
+      " Spice",
+      " Food"
+    ],
+    "productCatID": 2,
+    "productImage": "C:\\fakepath\\IMG_0005.jpg",
+    "productStatus": "publish",
+    "companyID": 2,
+    "companyNumber": 258852030761,
+    "productExtras": [
+      {
+        "id": 1,
+        "Name": "Mussarela",
+        "Cost": "40",
+        "productName": ""
+      },
+      {
+        "id": 1,
+        "Name": "King Spice",
+        "Cost": "60"
+      },
+      {
+        "id": 2,
+        "Name": "Sauce",
+        "Cost": "30"
+      }
+    ],
+    "id": 1
+  },
+  {
+    "productName": "Burger King",
+    "productPrice": "70",
+    "newProductContent": [
+      "mayonaise",
+      " batatas",
+      " burger"
+    ],
+    "productCatID": 1,
+    "productImage": "C:\\fakepath\\Profile.jpg",
+    "productStatus": "publish",
+    "companyID": 2,
+    "companyNumber": 258852030761,
+    "productExtras": [
+      {
+        "id": 1,
+        "Name": "Spice",
+        "Cost": "10",
+        "productName": ""
+      },
+      {
+        "id": 1,
+        "Name": "Sauce",
+        "Cost": "16"
+      }
+    ],
+    "id": 2
+  },
+  {
+    "productName": "Teste #1",
+    "productPrice": "15,00",
+    "newProductContent": [
+      "teste",
+      " teste",
+      " teste "
+    ],
+    "productCatID": 4,
+    "productImage": "C:\\fakepath\\loginBanner.webp",
+    "productStatus": "publish",
+    "companyID": 1,
+    "companyNumber": 258852030761,
+    "productExtras": [
+      {
+        "id": 1,
+        "Name": "null",
+        "Cost": 0
+      }
+    ],
+    "id": 3
+  }
+]
